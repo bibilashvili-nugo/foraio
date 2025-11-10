@@ -222,3 +222,212 @@ export const UnitedKingdom = () => {
     </svg>
   );
 };
+
+export const ChartPie = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10 1C5.02944 1 1 5.02944 1 10C1 14.9706 5.02944 19 10 19C14.9706 19 19 14.9706 19 10M10 1C14.9706 1 19 5.02944 19 10M10 1V10M19 10H10M16 16.5L10 10"
+        stroke="url(#paint0_linear_15_195)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_15_195"
+          x1="10"
+          y1="1"
+          x2="10"
+          y2="19"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD339" />
+          <stop offset="1" stopColor="#FFB83A" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const Tag = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3.9566 6.37089L3.68058 9.4071C3.6397 9.85677 3.61908 10.0835 3.65651 10.2987C3.68994 10.491 3.75672 10.676 3.85414 10.8452C3.96359 11.0352 4.12536 11.197 4.44706 11.5187L8.75998 15.8316C9.41585 16.4875 9.74395 16.8156 10.1233 16.9388C10.458 17.0476 10.8192 17.0478 11.1539 16.9391C11.5345 16.8154 11.8652 16.4851 12.5252 15.8251L15.825 12.5253C16.4851 11.8652 16.8145 11.5354 16.9382 11.1548C17.0469 10.8201 17.0463 10.4593 16.9375 10.1246C16.8139 9.74405 16.4849 9.41425 15.8249 8.75422L11.5226 4.45195C11.198 4.12731 11.0356 3.96497 10.8447 3.85502C10.6756 3.75761 10.4905 3.69054 10.2982 3.65711C10.0812 3.61937 9.85248 3.64012 9.39526 3.68168L6.37041 3.95667C5.58311 4.02824 5.18922 4.06419 4.88116 4.2355C4.60955 4.38653 4.38564 4.61044 4.23461 4.88204C4.06416 5.18857 4.0286 5.57967 3.95775 6.35914L3.9566 6.37089Z"
+        stroke="url(#paint0_linear_14_646)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8.09383 8.09418C8.41926 7.76874 8.41926 7.24111 8.09383 6.91567C7.76839 6.59023 7.24038 6.59023 6.91494 6.91567C6.5895 7.24111 6.58919 7.76862 6.91463 8.09406C7.24006 8.41949 7.76839 8.41962 8.09383 8.09418Z"
+        stroke="url(#paint1_linear_14_646)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_14_646"
+          x1="10.3282"
+          y1="3.63733"
+          x2="10.3282"
+          y2="17.0205"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFD339" />
+          <stop offset="1" stop-color="#FFB739" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_14_646"
+          x1="10.3282"
+          y1="3.63733"
+          x2="10.3282"
+          y2="17.0205"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD339" />
+          <stop offset="1" stopColor="#FFB739" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export const MainComponent = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_14_652)">
+        <path
+          d="M9.36228 1.97831C9.056 2.10517 8.78142 2.37975 8.23232 2.92885C7.68334 3.47783 7.40865 3.75252 7.2818 4.05877C7.11264 4.46715 7.11264 4.92605 7.2818 5.33443C7.40866 5.64071 7.68322 5.91527 8.23234 6.46439C8.78115 7.01319 9.05606 7.28811 9.36225 7.41494C9.77063 7.58409 10.2295 7.58409 10.6379 7.41494C10.9442 7.28807 11.2188 7.01351 11.7679 6.46439C12.317 5.91527 12.5907 5.64071 12.7176 5.33443C12.8868 4.92605 12.8868 4.46715 12.7176 4.05877C12.5907 3.75248 12.317 3.47797 11.7679 2.92885C11.2188 2.37974 10.9442 2.10517 10.6379 1.97831C10.2295 1.80915 9.77066 1.80915 9.36228 1.97831Z"
+          stroke="url(#paint0_linear_14_652)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M4.05873 7.28145C3.75244 7.40832 3.47788 7.68288 2.92877 8.23199C2.37981 8.78096 2.1051 9.05567 1.97825 9.36191C1.80909 9.77029 1.80909 10.2292 1.97825 10.6376C2.10511 10.9439 2.37968 11.2184 2.92879 11.7675C3.47759 12.3163 3.75251 12.5912 4.05871 12.7181C4.46709 12.8872 4.92599 12.8872 5.33437 12.7181C5.64065 12.5912 5.91521 12.3167 6.46433 11.7675C7.01345 11.2184 7.2872 10.9439 7.41406 10.6376C7.58322 10.2292 7.58322 9.77029 7.41406 9.36191C7.2872 9.05562 7.01345 8.78111 6.46433 8.23199C5.91521 7.68288 5.64065 7.40832 5.33437 7.28145C4.92599 7.11229 4.46711 7.11229 4.05873 7.28145Z"
+          stroke="url(#paint1_linear_14_652)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M13.5359 8.23199C12.9869 8.78097 12.7122 9.05566 12.5853 9.36191C12.4162 9.77029 12.4162 10.2292 12.5853 10.6376C12.7122 10.9439 12.9868 11.2184 13.5359 11.7675C14.0847 12.3163 14.3596 12.5912 14.6658 12.7181C15.0742 12.8872 15.5331 12.8872 15.9415 12.7181C16.2477 12.5912 16.5223 12.3167 17.0714 11.7675C17.6205 11.2184 17.8943 10.9439 18.0212 10.6376C18.1903 10.2292 18.1903 9.77029 18.0212 9.36191C17.8943 9.05562 17.6205 8.7811 17.0714 8.23199C16.5223 7.68288 16.2477 7.40832 15.9415 7.28145C15.5331 7.11229 15.0742 7.11229 14.6658 7.28145C14.3595 7.40831 14.085 7.68288 13.5359 8.23199Z"
+          stroke="url(#paint2_linear_14_652)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M9.36228 12.585C9.05599 12.7119 8.78143 12.9864 8.23232 13.5355C7.68335 14.0845 7.40864 14.3592 7.2818 14.6655C7.11264 15.0738 7.11264 15.5327 7.2818 15.9411C7.40866 16.2474 7.68322 16.522 8.23234 17.0711C8.78114 17.6199 9.05606 17.8948 9.36225 18.0216C9.77063 18.1908 10.2295 18.1908 10.6379 18.0216C10.9442 17.8948 11.2188 17.6202 11.7679 17.0711C12.317 16.522 12.5907 16.2474 12.7176 15.9411C12.8868 15.5327 12.8868 15.0738 12.7176 14.6655C12.5907 14.3592 12.317 14.0847 11.7679 13.5355C11.2188 12.9864 10.9442 12.7119 10.6379 12.585C10.2295 12.4158 9.77066 12.4158 9.36228 12.585Z"
+          stroke="url(#paint3_linear_14_652)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_14_652"
+          x1="9.9997"
+          y1="1.85144"
+          x2="9.9997"
+          y2="18.1485"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD23A" />
+          <stop offset="1" stopColor="#FFB839" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_14_652"
+          x1="9.9997"
+          y1="1.85144"
+          x2="9.9997"
+          y2="18.1485"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD23A" />
+          <stop offset="1" stopColor="#FFB839" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear_14_652"
+          x1="9.9997"
+          y1="1.85144"
+          x2="9.9997"
+          y2="18.1485"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD23A" />
+          <stop offset="1" stopColor="#FFB839" />
+        </linearGradient>
+        <linearGradient
+          id="paint3_linear_14_652"
+          x1="9.9997"
+          y1="1.85144"
+          x2="9.9997"
+          y2="18.1485"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD23A" />
+          <stop offset="1" stopColor="#FFB839" />
+        </linearGradient>
+        <clipPath id="clip0_14_652">
+          <rect width="20" height="20" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export const Heart = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10 6.41189C8.33333 2.49986 2.5 2.91652 2.5 7.91655C2.5 12.9166 10 17.0834 10 17.0834C10 17.0834 17.5 12.9166 17.5 7.91655C17.5 2.91652 11.6667 2.49986 10 6.41189Z"
+        stroke="url(#paint0_linear_14_658)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_14_658"
+          x1="10"
+          y1="3.78333"
+          x2="10"
+          y2="17.0834"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFD33A" />
+          <stop offset="1" stopColor="#FFB839" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};

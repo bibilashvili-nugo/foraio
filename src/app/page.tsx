@@ -1,3 +1,4 @@
+import CashflowExperience from "../../components/CashflowExperience";
 import Header from "../../components/Header";
 import NavBar from "../../components/NavBar";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="mt-6 px-10">
       <NavBar />
       <Header />
+      <CashflowExperience />
     </div>
   );
 }
