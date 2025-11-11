@@ -1,5 +1,5 @@
 import { ArrowDownUp, UserAdd } from "react-coolicons";
-import { EuropeanUnion, UnitedKingdom, UnitedState } from "../ui/icons";
+import { EuropeanUnion, UnitedKingdom, UnitedState } from "../ui/countryIcons";
 
 interface UserAndArrowProps {
   Icon: React.ComponentType<{

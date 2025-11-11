@@ -1,6 +1,6 @@
 import { ArrowDownUp, ArrowRightSm, Command } from "react-coolicons";
-import { EuropeanUnion, UnitedKingdom, UnitedState } from "./ui/icons";
 import { GreenChart } from "./ui/charts";
+import { EuropeanUnion, UnitedKingdom, UnitedState } from "./ui/countryIcons";
 
 const TransactionPanel = ({
   title,
