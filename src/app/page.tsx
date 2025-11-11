@@ -1,5 +1,6 @@
 import Advantages from "../../components/Advantages";
 import CashflowExperience from "../../components/CashflowExperience";
+import CompetitivePrices from "../../components/CompetitivePrices";
 import CurrencyConversion from "../../components/CurrencyConversion";
 import Header from "../../components/Header";
 import JourneyIntroSection from "../../components/JourneyIntroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <Advantages />
       <CurrencyConversion />
       <JourneyIntroSection />
+      <CompetitivePrices />
     </div>
   );
 }
