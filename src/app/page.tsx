@@ -2,6 +2,7 @@ import Advantages from "../../components/Advantages";
 import CashflowExperience from "../../components/CashflowExperience";
 import CurrencyConversion from "../../components/CurrencyConversion";
 import Header from "../../components/Header";
+import JourneyIntroSection from "../../components/JourneyIntroSection";
 import NavBar from "../../components/NavBar";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <CashflowExperience />
       <Advantages />
       <CurrencyConversion />
+      <JourneyIntroSection />
     </div>
   );
 }

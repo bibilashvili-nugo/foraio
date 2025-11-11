@@ -29,7 +29,7 @@ const GridContent = ({
   return (
     <div
       className={`bg-white px-4 ${
-        gridTyepe === "1" ? "py-[21px]" : "py-4"
+        gridTyepe === "1" || gridTyepe === "3" ? "py-[21px]" : "py-4"
       } rounded-[20px] shadow-[0_8px_16px_0_#0000000D] flex items-center gap-2`}
     >
       {gridTyepe === "1" || gridTyepe === "2" ? (
