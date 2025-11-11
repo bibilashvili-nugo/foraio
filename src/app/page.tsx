@@ -1,3 +1,4 @@
+import Advantages from "../../components/Advantages";
 import CashflowExperience from "../../components/CashflowExperience";
 import Header from "../../components/Header";
 import NavBar from "../../components/NavBar";
@@ -8,6 +9,7 @@ export default function Home() {
       <NavBar />
       <Header />
       <CashflowExperience />
+      <Advantages />
     </div>
   );
 }
